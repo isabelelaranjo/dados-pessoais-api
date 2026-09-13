@@ -1,4 +1,4 @@
-package br.senac.tads.dsw.dadospessoais;
+package br.senac.tads.dsw.dados_pessoais;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -25,10 +25,6 @@ public class Pessoa {
         this.email = email;
         this.telefone = telefone;
         this.dataNascimento = dataNascimento;
-    }
-
-    public Pessoa(int incrementAndGet, String string, String string2, String string3, Object object, LocalDate of) {
-        //TODO Auto-generated constructor stub
     }
 
     public Integer getId() {
